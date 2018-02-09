@@ -1,0 +1,113 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
+	color: #CC00AA;
+}
+
+.jumbotron {
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	margin-bottom: 0px;
+	background: none;
+     margin: 0px;
+     text-align: center;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/testScreen.jpeg");
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;
+}
+
+.jumbotron p {
+     color: #6e6e6e;
+}
+
+.navbar {
+     margin-bottom: 0px;
+}
+
+.fixed-bottom {
+     bottom: 0px;
+     position: absolute;
+     width:100vw;
+}
+.fixed-top {
+     margin-bottom: 5vh;
+}
+
+.project a {
+     text-align: center;
+     display: inline-flex;
+     position: relative;
+     width: 15vh;
+     height: 15vh;
+     border-radius: 73px;
+     margin: 5px;
+}
+
+.container{
+     margin: 0px;
+     padding: 0px;
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+}
+
+.project{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    z-index: 1;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    z-index: 1;
+}
+
+.right-justified{
+     position: relative;
+     min-width: 100px;
+     background-color: #d7cfd2;
+     text-align: right;
+     padding-right: 10px;
+     left: 45px !important;
+}
+
+.glyphicon.glyphicon-play {
+		font-size: 1.5em;
+}
+
+.glyphicon.glyphicon-pause {
+    font-size: 1.5em;
+}
+.glyphicon.glyphicon-forward {
+	font-size: 1.5em;
+}
+
+.song-nav p {
+	text-align: center;
+}
